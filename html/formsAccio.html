@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+     <h4>General Details</h4>
+     <div>
+
+        <label for="username">username:</label> <br>
+     <input type="text">
+
+    </div>
+
+    <div>
+        <label for="fullname">fullname:</label><br>
+          <input type="text" name="fname" maxlength="10" required autocomplete="on">
+    </div>
+
+    <div>
+        <label for="phoneNum">phonnumber:</label><br>
+        <input type="tell" name="number" pattern="\d{5}([-]*)\d{6}" >
+    </div>
+
+    <div>
+        <label for="email">email:</label><br>
+        <input type="email" name="email">
+    </div>
+
+    <div>
+        <label for="password">password:</label><br>
+        <input type="password" name="password"><br><br>
+    </div>
+
+    <div>
+        <label for="gender">gender:</label><br>
+        Male: <input type="radio" name="gender"><br>
+        Female: <input type="radio" name="gender"><br><br>
+    </div>
+
+    <div>
+        <label for="gender">subject:</label><br>
+        html: <input type="checkbox" name="html"><br>
+        java: <input type="checkbox" name="java"><br>
+        css: <input type="checkbox" name="css"><br><br>
+    </div>
+
+    <div>
+      <input type="time  ">
+      <input type="date">
+      <input type="datetime">
+      <input type="datetime-local"><br><br>
+
+      <input type="file">
+
+      <input type="color">
+
+      <input type="range">
+      
+    </div>
+
+    <div>
+        <label for="subject">choose a subject:</label>
+        <select name="subject">
+            <option value="html">html</option>
+            <option value="css">css</option>
+            <option value="js">js</option>
+        </select>
+    </div>
+
+    <div>
+        <label for=""> Adress: </label><br>
+        <textarea name="text" id="" cols="30" rows="10"></textarea>
+    </div>
+
+    <div>
+
+         <input type="submit" value="Submit">
+        <input type="reset" value="Reset" disabled>
+    </div>
+
+    </form>
+</body>
+</html>
